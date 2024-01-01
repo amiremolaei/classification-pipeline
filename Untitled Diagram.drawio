@@ -1,9 +1,42 @@
-<mxfile host="app.diagrams.net" modified="2024-01-01T00:38:46.843Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="22.1.16" etag="NDBLHnv7_TaHHqAKUtyb" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-01T00:47:02.066Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="DjWCeYIgoAnm37dsOYNA" version="22.1.16" type="github">
   <diagram name="Page-1" id="DlFzQsnIKA9ZiB27n3Mt">
-    <mxGraphModel>
+    <mxGraphModel dx="1100" dy="585" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="I6wAZpbOmi5jrmN-gjg5-16" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="30" width="290" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="I6wAZpbOmi5jrmN-gjg5-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="120" width="210" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="I6wAZpbOmi5jrmN-gjg5-2" value="dc_motor_controller" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="241" y="200" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="I6wAZpbOmi5jrmN-gjg5-3" value="dc_motor_driver" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="241" y="270" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="I6wAZpbOmi5jrmN-gjg5-4" value="forward_kinematics" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="500" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="I6wAZpbOmi5jrmN-gjg5-5" value="joint_space_controller" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="440" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="I6wAZpbOmi5jrmN-gjg5-6" value="pid_controller" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="540" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="I6wAZpbOmi5jrmN-gjg5-8" value="current_senor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="241" y="410" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="I6wAZpbOmi5jrmN-gjg5-9" value="encoder" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="241" y="340" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="I6wAZpbOmi5jrmN-gjg5-17" value="actuator_control" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="235" y="50" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I6wAZpbOmi5jrmN-gjg5-18" value="actuator" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="140" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
